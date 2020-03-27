@@ -1,6 +1,9 @@
 const { program } = require('commander');
 const { Fcss } = require('./lib/fcss.js');
 
+var path = require('path');
+var appDir = path.dirname(require.main.filename);
+
 
 program.version('0.0.1');
 
@@ -9,6 +12,6 @@ program
 
 program.parse(process.argv);
 
-let fcss = new Fcss(program.file);
+new Fcss(program.file).generate();
 
 
