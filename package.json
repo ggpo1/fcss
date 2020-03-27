@@ -1,0 +1,23 @@
+{
+  "name": "fcss",
+  "version": "0.0.1",
+  "description": "fcss",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggpo1/fcss.git"
+  },
+  "author": "ggpo1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggpo1/fcss/issues"
+  },
+  "homepage": "https://github.com/ggpo1/fcss#readme",
+  "dependencies": {
+    "commander": "^5.0.0"
+  }
+}
